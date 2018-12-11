@@ -1,4 +1,7 @@
-<?php
+
+<?php 
+
+include("/var/www/html/vecchionet.com/header.php");
 
 use Kanboard\Core\Controller\Runner;
 
@@ -10,3 +13,4 @@ try {
 } catch (Exception $e) {
     echo 'Internal Error: '.$e->getMessage();
 }
+?>
